@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: white;
+    background-image: url("colors.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    min-height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+.divs{
+    align-items: center;
+    background-color:rgba(255,255,255,.3) ;
+    width: 400px;
+    height: 400px;
+    border-radius: 15px;
+
+    border: 1px solid rgba(255,255,255,.3)  ;
+}
+
+h1{
+
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Name{
+    margin-right: 260px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+.input{
+    border-radius: 12px;
+    padding: 5px;
+    border: 1px solid white
+}
+hr{
+    width: 341px;
+}
+
+button{
+    margin-top: 25px;
+    border-radius: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid white;
+    background-color: red;
+    padding: 8px 30px;
+}
+.p1{
+    margin-top: 10px;
+}
+.p2{
+    margin-top: 55px;
+    font-size: 15px;
+    margin-right: 150px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
